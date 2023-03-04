@@ -1,0 +1,11 @@
+C:\Users\Ayaan Danish\source\repos\CN Assignment 1 - Client\CN Assignment 1 - Client\bin\Debug\CN Assignment 1 - Client.exe.config
+C:\Users\Ayaan Danish\source\repos\CN Assignment 1 - Client\CN Assignment 1 - Client\bin\Debug\CN Assignment 1 - Client.exe
+C:\Users\Ayaan Danish\source\repos\CN Assignment 1 - Client\CN Assignment 1 - Client\bin\Debug\CN Assignment 1 - Client.pdb
+C:\Users\Ayaan Danish\source\repos\CN Assignment 1 - Client\CN Assignment 1 - Client\obj\Debug\CN Assignment 1 - Client.csproj.AssemblyReference.cache
+C:\Users\Ayaan Danish\source\repos\CN Assignment 1 - Client\CN Assignment 1 - Client\obj\Debug\CN Assignment 1 - Client.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ayaan Danish\source\repos\CN Assignment 1 - Client\CN Assignment 1 - Client\obj\Debug\CN_Assignment_1___Client.ClientWindow.resources
+C:\Users\Ayaan Danish\source\repos\CN Assignment 1 - Client\CN Assignment 1 - Client\obj\Debug\CN_Assignment_1___Client.Properties.Resources.resources
+C:\Users\Ayaan Danish\source\repos\CN Assignment 1 - Client\CN Assignment 1 - Client\obj\Debug\CN Assignment 1 - Client.csproj.GenerateResource.cache
+C:\Users\Ayaan Danish\source\repos\CN Assignment 1 - Client\CN Assignment 1 - Client\obj\Debug\CN Assignment 1 - Client.csproj.CoreCompileInputs.cache
+C:\Users\Ayaan Danish\source\repos\CN Assignment 1 - Client\CN Assignment 1 - Client\obj\Debug\CN Assignment 1 - Client.exe
+C:\Users\Ayaan Danish\source\repos\CN Assignment 1 - Client\CN Assignment 1 - Client\obj\Debug\CN Assignment 1 - Client.pdb
