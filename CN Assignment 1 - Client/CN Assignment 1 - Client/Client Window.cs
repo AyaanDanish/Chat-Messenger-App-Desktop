@@ -19,7 +19,7 @@ namespace CN_Assignment_1___Client
             InitializeComponent();
         }
 
-        //Runs at every keypress in the port text box, used to only allow digits 
+        //Runs at every keypress in the port text box, used to only allow digits to be entered
         private void IPTextBox_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && e.KeyChar != ':' && e.KeyChar != '.')

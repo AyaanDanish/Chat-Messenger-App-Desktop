@@ -15,8 +15,7 @@ namespace CN_Assignment_1
         private static Socket listenerSocket; //Socket used to listen for and establish new connections
         private static List<Socket> clientSocketList = new List<Socket>(); // List of all currently connected client sockets
         private static Dictionary<Socket, string> clientNames = new Dictionary<Socket, string>(); // Stores the name of each client
-        private static Socket clientSocket; //DEPRECATED
-        private static byte[] buff = new byte[1024];
+        private static byte[] buff = new byte[1024]; //Global buffer of fixed size
 
         public delegate void labelDelegate(Color labelColor, string labelText); //Delegate used to forward label changing operations to the main thread
         public delegate void listboxDelegate(string message, bool fromMe, Socket currentSocket); //Delegate used to forward listbox updating operations to main thread
@@ -57,6 +56,7 @@ namespace CN_Assignment_1
             }
             else
             {
+                //Output the message alongside the name of the client who sent it
                 MessageListBox.Items.Add(clientNames[currentSocket] + ": " + message);
             }
         }
@@ -148,6 +148,7 @@ namespace CN_Assignment_1
                 DisconnectClient(currentSocket);
                 return;
             }
+
 
             byte[] recvBuffer = new byte[bytesReceived];
             Array.Copy(buff, recvBuffer, bytesReceived);

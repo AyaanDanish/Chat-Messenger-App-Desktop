@@ -20,3 +20,14 @@ C:\Users\Ayaan Danish\source\repos\CN Assignment 1 - Server\CN Assignment 1\obj\
 C:\Users\Ayaan Danish\source\repos\CN Assignment 1 - Server\CN Assignment 1\obj\Debug\CN Assignment 1 - Server.csproj.CoreCompileInputs.cache
 C:\Users\Ayaan Danish\source\repos\CN Assignment 1 - Server\CN Assignment 1\obj\Debug\CN Assignment 1.exe
 C:\Users\Ayaan Danish\source\repos\CN Assignment 1 - Server\CN Assignment 1\obj\Debug\CN Assignment 1.pdb
+C:\Users\Ayaan Danish\Desktop\Chat Messenger App\CN Assignment 1 - Server\CN Assignment 1\bin\Debug\CN Assignment 1.exe.config
+C:\Users\Ayaan Danish\Desktop\Chat Messenger App\CN Assignment 1 - Server\CN Assignment 1\bin\Debug\CN Assignment 1.exe
+C:\Users\Ayaan Danish\Desktop\Chat Messenger App\CN Assignment 1 - Server\CN Assignment 1\bin\Debug\CN Assignment 1.pdb
+C:\Users\Ayaan Danish\Desktop\Chat Messenger App\CN Assignment 1 - Server\CN Assignment 1\obj\Debug\CN Assignment 1 - Server.csproj.AssemblyReference.cache
+C:\Users\Ayaan Danish\Desktop\Chat Messenger App\CN Assignment 1 - Server\CN Assignment 1\obj\Debug\CN Assignment 1 - Server.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ayaan Danish\Desktop\Chat Messenger App\CN Assignment 1 - Server\CN Assignment 1\obj\Debug\CN_Assignment_1.ServerWindow.resources
+C:\Users\Ayaan Danish\Desktop\Chat Messenger App\CN Assignment 1 - Server\CN Assignment 1\obj\Debug\CN_Assignment_1.Properties.Resources.resources
+C:\Users\Ayaan Danish\Desktop\Chat Messenger App\CN Assignment 1 - Server\CN Assignment 1\obj\Debug\CN Assignment 1 - Server.csproj.GenerateResource.cache
+C:\Users\Ayaan Danish\Desktop\Chat Messenger App\CN Assignment 1 - Server\CN Assignment 1\obj\Debug\CN Assignment 1 - Server.csproj.CoreCompileInputs.cache
+C:\Users\Ayaan Danish\Desktop\Chat Messenger App\CN Assignment 1 - Server\CN Assignment 1\obj\Debug\CN Assignment 1.exe
+C:\Users\Ayaan Danish\Desktop\Chat Messenger App\CN Assignment 1 - Server\CN Assignment 1\obj\Debug\CN Assignment 1.pdb
