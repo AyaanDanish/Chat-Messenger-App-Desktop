@@ -50,7 +50,7 @@ namespace CN_Assignment_1___Client
             }
             else
             {
-                MessageListBox.Items.Add("User: " + message);
+                MessageListBox.Items.Add("Server: " + message);
             }
         }
 
@@ -66,6 +66,11 @@ namespace CN_Assignment_1___Client
                     //Receive the message in a buffer and resize the buffer to fit the message
                     byte[] recvBuffer = new byte[serverSocket.SendBufferSize];
                     int bytesReceived = serverSocket.Receive(recvBuffer);
+                    if (bytesReceived == 0) 
+                    {
+                        DisconnectFromServer();
+                        break;
+                    }
                     Array.Resize(ref recvBuffer, bytesReceived);
 
                     //Convert the raw bytes into encoded string and add it to listbox using delegate
@@ -75,8 +80,7 @@ namespace CN_Assignment_1___Client
                 catch
                 {
                     //If any disconnection occurs, set the status to disconnected and close the socket
-                    ConnectionStatusLabel.BeginInvoke(new labelDelegate(ChangeStatus), Color.Red, "Disconnected");
-                    serverSocket.Close();
+                    DisconnectFromServer();
                     break;
                 }
             }
@@ -125,11 +129,16 @@ namespace CN_Assignment_1___Client
 
         private void DisconnectBtn_Click(object sender, EventArgs e)
         {
+            DisconnectFromServer();
+        }
+
+        private void DisconnectFromServer()
+        {
             if (serverSocket == null) return;
 
             serverSocket.Close();
-            ChangeStatus(Color.Red, "Disconnected");
-        }
 
+            ConnectionStatusLabel.BeginInvoke(new labelDelegate(ChangeStatus), Color.Red, "Disconnected");
+        }
     }
 }
